@@ -12,7 +12,7 @@ public class Main {
 
 	//TODO move constants to external properties file later. 
 	public static final String csvFilename = "exported.csv";
-	public static final String webServiceAddress = "http://pre.dev.goeuro.de:12345/api/v1/suggest/position/en/name/";
+	public static final String webServiceAddress = "https://api.goeuro.de/api/v1/suggest/position/en/name/Ber";
 	
 	/* I assume that we do not need to cathc exceptions in any way (no human readeable error message necessary) */
 	public static void main(String[] args) throws ImportException, IOException {
